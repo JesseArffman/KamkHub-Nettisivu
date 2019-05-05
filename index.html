@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  <title>KAMK Hub Homepage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <style>
+ <!-- <style>
   .fakeimg {
     height: 200px;
     background: #aaa;
   }
   </style>
+-->
 </head>
 <body>
 
+  <!--
 <div class="jumbotron text-center" style="margin-bottom:0">
   <h1>My First Bootstrap 4 Page</h1>
   <p>Resize this responsive page to see the effect!</p> 
 </div>
+-->
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
+<nav class="navbar navbar-expand-sm navbar-dark bg-white static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="kamk-logo.png" alt="logo" style="width:80px;">
+          </a>
+      <a class="navbar-brand text-info" href="#">KAMK Hub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-info" href="#">Features
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#">About</a>
+          </li>
+         <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <div class="container" style="margin-top:30px">
   <div class="row">
-    <div class="col-sm-4">
-      <h2>About Me</h2>
-      <h5>Photo of me:</h5>
-      <div class="fakeimg">Fake Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-      <h3>Some Links</h3>
+    <div class="col-sm-8">
+      <h1>KAMK Hub applikaatio</h1>
+      <!--<h5>Photo of me:</h5>-->
+      <p>KAMK Hub applikaatio esittelee Kajaanin ammattikorkeakoulun palvelutarjonnan yrityksille ja yhteistyökumppaneille.</p>
+      <br>
+      <a href="https://play.google.com/store/apps/details?id=com.citius.kamkhub">
+          <img src="google-play-logo-v2.png" alt="logo" style="width:200px;">
+      </a>
+      
+      <a href="https://itunes.apple.com/tt/app/kamk-hub/id1458706454?mt=8">
+        <img src="app-store-logo.png" alt="logo" style="margin-inline-start: 5px; width:200px;">
+    </a>
+      <!--<h3>Some Links</h3>
       <p>Lorem ipsum dolor sit ame.</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
@@ -64,28 +84,33 @@
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Disabled</a>
         </li>
-      </ul>
+      </ul> -->
       <hr class="d-sm-none">
     </div>
-    <div class="col-sm-8">
-      <h2>TITLE HEADING</h2>
+    <div class="col-sm-4">
+      <a href="#">
+          <img src="kamkhubapp-v1.jpeg" alt="logo" style="width:340px;">
+      </a>
+     <!-- <h2>TITLE HEADING</h2>
       <h5>Title description, Dec 7, 2017</h5>
       <div class="fakeimg">Fake Image</div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-      <br>
+   
       <h2>TITLE HEADING</h2>
       <h5>Title description, Sep 2, 2017</h5>
       <div class="fakeimg">Fake Image</div>
       <p>Some text..</p>
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+     -->
     </div>
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
+<!--<div class="jumbotron text-center" style="margin-bottom:0">
   <p>Footer</p>
 </div>
+-->
 
 </body>
 </html>
